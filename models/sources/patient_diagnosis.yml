@@ -1,0 +1,41 @@
+version: 2
+
+sources:
+  - name: source_patient_data
+    description: ""
+    database: "PATIENT_DATA"
+    schema: "DIAGNOSIS"
+    tables:
+      - name: PATIENT_DIAGNOSIS
+        #identifier: patient_d
+        columns:
+          - name: NAME
+            description: ""
+          - name: AGE
+            description: ""
+          - name: GENDER
+            description: ""
+          - name: BLOODTYPE
+            description: ""
+          - name: MEDICALCONDITION
+            description: ""
+          - name: DATEOFADMISSION
+            description: ""
+          - name: DOCTOR
+            description: ""
+          - name: HOSPITAL
+            description: ""
+          - name: INSURANCEPROVIDER
+            description: ""
+          - name: BILLINGAMOUNT
+            description: ""
+          - name: ROOMNUMBER
+            description: ""
+          - name: ADMISSIONTYPE
+            description: ""
+          - name: DISCHARGEDATE
+            description: ""
+          - name: MEDICATION
+            description: ""
+          - name: TESTRESULTS
+            description: ""

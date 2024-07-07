@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: tm_addr_dim
+    identifier: TM_ADDR_DIM
+
+    columns:
+      - name: CITY
+        description: ""
+      - name: PROVINCE
+        description: ""
+      - name: ADDR_KEY
+        description: ""
+        tests:
+          - unique
+          - not_null
+      - name: POSTAL_CD
+        description: ""
+      - name: COUNTRY
+        description: ""
+      - name: TZ_OFFSET_HRS
+        description: "" 
+      - name: is_deleted
+        description: ""
+      - name: ADD_DATE_DW
+        description: ""
+      - name: UPDATE_DATE_DW
+        description: ""

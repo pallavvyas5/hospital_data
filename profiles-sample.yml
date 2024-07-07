@@ -1,0 +1,14 @@
+# Copy this file into profiles.yml and fill values there - DO NOT COMMIT CREDENTIALS IN THIS FILE
+pl_snowflake_datamarts:
+  target: #dev
+  outputs:
+    dev:
+      type: #snowflake
+      account: # DEV snowflake account; <this>.snowflakecomputing.com
+      user: # username
+      password: # password
+      role: # role
+      warehouse: # warehouse
+      database: # dev database for dbt to create objects (target db)
+      schema: # schema for dbt to create objects (dbt will create schema if it doesnt exist) - make this unique to you (ie "ATHEY_DBT_DEV")
+      threads: 1 # number of threads dbt executes with (retains dependencies); default 1
