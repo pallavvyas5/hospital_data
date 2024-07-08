@@ -21,3 +21,6 @@ clean-targets: # directories to be removed by `dbt clean`
 
 models:
   +transient: false # create all models as permanent tables/views
+
+vars:
+ changes_schema: 'CHANGES'

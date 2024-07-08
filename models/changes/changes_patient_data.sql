@@ -1,7 +1,8 @@
+--this will combine with schema mention in profiles section and craete a schema in database mentioned in profile section
 {{
   config(
     materialized = 'view',
-    schema = var('changes_schema'), --this will combine with schema mention in profiles section and craete a schema in database mentioned in profile section
+    schema = var('changes_schema'), 
   )
 }}
 
