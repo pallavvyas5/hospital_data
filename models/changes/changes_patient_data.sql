@@ -7,7 +7,6 @@
 }}
 
 select 
-    NAME,
     AGE,
     GENDER,
     BLOODTYPE,
