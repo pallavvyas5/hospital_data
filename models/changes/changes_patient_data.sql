@@ -7,7 +7,7 @@
 }}
 
 select 
-    PatientID,
+    Patient_ID,
     Name,	
     Age,
     Gender,	
@@ -17,7 +17,7 @@ select
     AdmissionType,	
     Medication,	
     TestResults,	
-    DoctorID,	
+    Doctor_ID,	
     Doctor,	
     Hospital,	
     BillingAmount,	
