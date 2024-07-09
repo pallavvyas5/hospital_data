@@ -8,7 +8,7 @@
 select 
     Doctor_ID,	
     Doctor,	
-    Hospital,
-    DateofAdmission,
-    DischargeDate
+    Hospital,	
+    DATEOF_ADMISSION,
+    DISCHARGE_DATE
 from {{ ref('changes_patient_data') }}

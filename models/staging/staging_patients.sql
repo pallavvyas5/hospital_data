@@ -10,10 +10,10 @@ select
     Name,	
     Age,
     Gender,	
-    BloodType,	
-    MedicalCondition,
-    InsuranceProvider,
-    AdmissionType,	
+    BLOOD_TYPE,	
+    MEDICAL_CONDITION,
+    INSURANCE_PROVIDER,
+    ADMISSION_TYPE,	
     Medication,	
-    TestResults
+    TEST_RESULTS
 from {{ ref('changes_patient_data') }}
