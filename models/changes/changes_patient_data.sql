@@ -7,19 +7,21 @@
 }}
 
 select 
-    NAME,
-    AGE,
-    GENDER,
-    BLOODTYPE,
-    MEDICALCONDITION,
-    DATEOFADMISSION,
-    DOCTOR,
-    HOSPITAL,
-    INSURANCEPROVIDER,
-    BILLINGAMOUNT,
-    ROOMNUMBER,
-    ADMISSIONTYPE,
-    DISCHARGEDATE,
-    MEDICATION,
-    TESTRESULTS
+    PatientID,
+    Name,	
+    Age,
+    Gender,	
+    BloodType,	
+    MedicalCondition,
+    InsuranceProvider,
+    AdmissionType,	
+    Medication,	
+    TestResults,	
+    DoctorID,	
+    Doctor,	
+    Hospital,	
+    BillingAmount,	
+    RoomNumber,
+    DateofAdmission,
+    DischargeDate
 from {{ source('source_patient_data', 'PATIENT_DIAGNOSIS') }}

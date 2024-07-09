@@ -9,6 +9,8 @@ sources:
       - name: PATIENT_DIAGNOSIS
         #identifier: patient_d
         columns:
+          - name: PatientID
+            description: ""
           - name: NAME
             description: ""
           - name: AGE
@@ -20,6 +22,8 @@ sources:
           - name: MEDICALCONDITION
             description: ""
           - name: DATEOFADMISSION
+            description: ""
+          - name: DoctorID
             description: ""
           - name: DOCTOR
             description: ""
