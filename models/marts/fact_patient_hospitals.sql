@@ -7,7 +7,8 @@
 
 select 
     Patient_ID,
-    Doctor_ID,	
-    BILLING_AMOUNT,	
-    ROOM_NUMBER
+    Doctor_ID,
+    Hospital_ID,
+    Billing_Amount,
+    Room_Number
 from {{ ref('changes_patient_data') }} 

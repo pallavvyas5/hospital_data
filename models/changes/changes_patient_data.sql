@@ -19,6 +19,7 @@ select
     TEST_RESULTS,	
     Doctor_ID,	
     Doctor,	
+    Hospital_ID
     Hospital,	
     BILLING_AMOUNT,	
     ROOM_NUMBER,

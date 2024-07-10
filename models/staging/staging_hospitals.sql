@@ -6,7 +6,7 @@
 }}
 
 select 
-    Doctor_ID,
-    Doctor
+    Hospital_ID,
+    Hospital
 from {{ ref('changes_patient_data') }}
 group by 1, 2

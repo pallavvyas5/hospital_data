@@ -7,13 +7,12 @@
 
 select 
     Patient_ID,
-    Name,	
+    Name,
     Age,
-    Gender,	
-    BLOOD_TYPE,	
-    MEDICAL_CONDITION,
-    INSURANCE_PROVIDER,
-    ADMISSION_TYPE,	
-    Medication,	
-    TEST_RESULTS
+    Gender,
+    Blood_Type,
+    Medical_Condition,
+    Insurance_Provider,
+    Dateof_Admission,
+    Discharge_Date
 from {{ ref('changes_patient_data') }}

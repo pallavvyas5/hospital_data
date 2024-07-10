@@ -27,6 +27,8 @@ sources:
             description: ""
           - name: DOCTOR
             description: ""
+          - name: HOSPITAL_ID
+            description: ""
           - name: HOSPITAL
             description: ""
           - name: INSURANCEPROVIDER
