@@ -9,7 +9,6 @@ profile: "hospital_data"
 # The `model-paths` config, for example, states that models in this project can be
 # found in the "models/" directory. You probably won't need to change these!
 model-paths: ["models"]
-analysis-paths: ["analyses"]
 test-paths: ["tests"]
 seed-paths: ["seeds"]
 macro-paths: ["macros"]
@@ -22,6 +21,6 @@ clean-targets: # directories to be removed by `dbt clean`
 models:
   +transient: false # create all models as permanent tables/views
 
-vars:
+vars: # variables to create our models in respective schema
  changes_schema: 'CHANGES'
  mart_schema: 'mart'

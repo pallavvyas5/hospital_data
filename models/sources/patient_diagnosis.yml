@@ -7,23 +7,25 @@ sources:
     schema: "DIAGNOSIS"
     tables:
       - name: PATIENT_DIAGNOSIS
-        #identifier: patient_d
         columns:
-          - name: PatientID
+          - name: Patient_ID
             description: ""
+            tests:
+              - unique
+              - not_null
           - name: NAME
             description: ""
           - name: AGE
             description: ""
           - name: GENDER
             description: ""
-          - name: BLOODTYPE
+          - name: BLOOD_TYPE
             description: ""
-          - name: MEDICALCONDITION
+          - name: MEDICAL_CONDITION
             description: ""
-          - name: DATEOFADMISSION
+          - name: DATEOF_ADMISSION
             description: ""
-          - name: DoctorID
+          - name: Doctor_ID
             description: ""
           - name: DOCTOR
             description: ""
@@ -31,17 +33,17 @@ sources:
             description: ""
           - name: HOSPITAL
             description: ""
-          - name: INSURANCEPROVIDER
+          - name: INSURANCE_PROVIDER
             description: ""
-          - name: BILLINGAMOUNT
+          - name: BILLING_AMOUNT
             description: ""
-          - name: ROOMNUMBER
+          - name: ROOM_NUMBER
             description: ""
-          - name: ADMISSIONTYPE
+          - name: ADMISSION_TYPE
             description: ""
-          - name: DISCHARGEDATE
+          - name: DISCHARGE_DATE
             description: ""
           - name: MEDICATION
             description: ""
-          - name: TESTRESULTS
+          - name: TEST_RESULTS
             description: ""
