@@ -14,5 +14,6 @@ select
     Medical_Condition,
     Insurance_Provider,
     Dateof_Admission,
+    ADMISSION_TYPE,
     Discharge_Date
 from {{ ref('changes_patient_data') }}
