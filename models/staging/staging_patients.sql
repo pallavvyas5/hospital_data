@@ -12,8 +12,10 @@ select
     Gender,
     Blood_Type,
     Medical_Condition,
+    Medication,
     Insurance_Provider,
     Dateof_Admission,
     ADMISSION_TYPE,
+    TEST_RESULTS,
     Discharge_Date
 from {{ ref('changes_patient_data') }}
