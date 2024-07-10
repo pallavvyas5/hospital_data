@@ -24,5 +24,4 @@ models:
 
 vars:
  changes_schema: 'CHANGES'
- staging_schema: 'STAGING'
  mart_schema: 'mart'

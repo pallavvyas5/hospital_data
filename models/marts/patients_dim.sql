@@ -1,7 +1,7 @@
 {{
   config(
     materialized = 'view',
-    schema = var('staging_schema'), 
+    schema = var('mart_schema'), 
   )
 }}
 
