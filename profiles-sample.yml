@@ -1,5 +1,5 @@
 # Copy this file into profiles.yml and fill values there - DO NOT COMMIT CREDENTIALS IN THIS FILE
-pl_snowflake_datamarts:
+hospital_data:
   target: #dev
   outputs:
     dev:
